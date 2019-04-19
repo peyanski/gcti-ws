@@ -27,3 +27,8 @@ HELP.md
 
 ### VS Code ###
 .vscode/
+
+### My custom ignore ###
+/src/main/resources/application.properties
+
+

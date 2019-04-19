@@ -4,10 +4,10 @@
 spring.jpa.hibernate.ddl-auto=none
 spring.jpa.database-platform=org.hibernate.dialect.Oracle10gDialect
 spring.datasource.url= jdbc:oracle:thin:@ORATDB.MOBILTEL.BG:1521/gctest
-spring.datasource.username=ivr_ident
-spring.datasource.password=ivr_ident
+spring.datasource.username=USERNAME
+spring.datasource.password=PASSWORD
 spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
 ## this shows the sql actions in the terminal logs
 spring.jpa.show-sql=true
 ##optional, but just in case another application is listening on your default  port (8080)
-server.port = 8034
+server.port = 8036
