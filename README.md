@@ -3,10 +3,12 @@
 RESTful web service using Spring Boot, Spring Data JPA and Oracle Database. With all working CRUD operations.
 
 Example requests:
+
     http://localhost:8036/client/088xxxxxxx - GET
     http://localhost:8036/client/088xxxxxxx - DEL
     http://localhost:8036/client/addclient - POST
-        `{
+        ```json
+        {
             "specialind": "1",
             "msisdn": "088xxxxxxx",
             "simstatus": "1",
@@ -18,9 +20,11 @@ Example requests:
             "pin": "1",
             "acclevelind": "1",
             "segment": "1"
-        }`
+        }
+    ```
     http://localhost:8036/client/updateclient/088xxxxxxx - PUT
-        `{
+        ```json
+        {
             "specialind": "1",
             "msisdn": "088xxxxxxx",
             "simstatus": "5",
@@ -33,7 +37,8 @@ Example requests:
             "acclevelind": "1",
             "segment": "2"
 
-        }`
+        }
+        ```
 
 
 ## Build & Run
@@ -49,5 +54,3 @@ Example requests:
 // TODO
 
 ## License
-
-Free for use
