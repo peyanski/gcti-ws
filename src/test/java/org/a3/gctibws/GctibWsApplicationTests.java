@@ -1,4 +1,3 @@
-/*
 package org.a3.gctibws;
 
 import org.junit.Test;
@@ -15,4 +14,3 @@ public class GctibWsApplicationTests {
 	}
 
 }
-*/

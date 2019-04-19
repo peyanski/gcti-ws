@@ -33,7 +33,7 @@ public class ClientController {
 
     @RequestMapping(value = "/addclient", method = RequestMethod.POST,
             consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
-    @ResponseBody()
+    //@ResponseBody() ??
     public Client addNewClient(@RequestBody Client client) {
         return this.clientService.addClient(client);
     }
