@@ -6,9 +6,12 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
+
 @Entity
 @Table(name = "IVR_CUST_DET2")
 public class Client {
+
     @Id
     @Column(name = "MSISDN", nullable = true, length = 15)
     private String msisdn;
