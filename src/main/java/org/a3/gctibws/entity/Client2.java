@@ -7,10 +7,9 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 
-
 @Entity
-@Table(name = "IVR_CUST_DET")
-public class Client {
+@Table(name = "IVR_CUST_DET2")
+public class Client2 {
 
     @Id
     @Column(name = "MSISDN", nullable = true, length = 15)
@@ -46,9 +45,9 @@ public class Client {
     @Column(name = "ACC_LEVEL_IND", nullable = true, length = 10)
     private String acclevelind;
 
-    public Client(String msisdn, String simstatus, String segment, String acclevelind, String specialind,
-                  String customertype, String customersubtype, String effectivesegment, String servicesegment,
-                  Long sublevelind, String pin) {
+    public Client2(String msisdn, String simstatus, String segment, String acclevelind, String specialind,
+                   String customertype, String customersubtype, String effectivesegment, String servicesegment,
+                   Long sublevelind, String pin) {
         this.msisdn = msisdn;
         this.simstatus = simstatus;
         this.segment = segment;
@@ -62,7 +61,7 @@ public class Client {
         this.pin = pin;
     }
 
-    protected Client() {
+    protected Client2() {
 
     }
 
